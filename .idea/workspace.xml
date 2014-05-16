@@ -3,6 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="da80f0ca-e6b3-4130-9f07-97fc7c2765b6" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/BreedingToads.java" afterPath="$PROJECT_DIR$/src/BreedingToads.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="BreedingToads.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -69,11 +70,20 @@
       <file leaf-file-name="BreedingToads.java" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/BreedingToads.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="23" column="0" selection-start="601" selection-end="601" vertical-scroll-proportion="0.30286598" vertical-offset="0" max-vertical-offset="1291">
+            <state line="55" column="0" selection-start="1612" selection-end="1612" vertical-scroll-proportion="0.7242448" vertical-offset="0" max-vertical-offset="1291">
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#234#246#0" expanded="true" />
+                <element signature="e#324#336#0" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="XSmallest.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/XSmallest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="16" column="0" selection-start="245" selection-end="245" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="986">
+              <folding />
             </state>
           </provider>
         </entry>
@@ -105,14 +115,15 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/src/BreedingToads.java" />
         <option value="$PROJECT_DIR$/src/Coordinate.java" />
+        <option value="$PROJECT_DIR$/src/XSmallest.java" />
+        <option value="$PROJECT_DIR$/src/BreedingToads.java" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="321" />
-    <option name="y" value="872" />
+    <option name="x" value="1184" />
+    <option name="y" value="393" />
     <option name="width" value="1616" />
     <option name="height" value="1412" />
   </component>
@@ -418,15 +429,15 @@
       <changelist id="da80f0ca-e6b3-4130-9f07-97fc7c2765b6" name="Default" comment="" />
       <created>1400202960170</created>
       <updated>1400202960170</updated>
-      <workItem from="1400202962318" duration="3289000" />
+      <workItem from="1400202962318" duration="5909000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="3289000" />
+    <option name="totallyTimeSpent" value="5909000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="321" y="872" width="1616" height="1412" extended-state="0" />
+    <frame x="1184" y="393" width="1616" height="1412" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
@@ -442,6 +453,7 @@
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
       <window_info id="IDEtalk" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -472,7 +484,18 @@
   <component name="XDebuggerManager">
     <breakpoint-manager />
   </component>
+  <component name="antWorkspaceConfiguration">
+    <option name="IS_AUTOSCROLL_TO_SOURCE" value="false" />
+    <option name="FILTER_TARGETS" value="false" />
+  </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/src/XSmallest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="16" column="0" selection-start="245" selection-end="245" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="986">
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/Coordinate.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="20" column="1" selection-start="348" selection-end="348" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="442">
@@ -487,10 +510,10 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/BreedingToads.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="23" column="0" selection-start="601" selection-end="601" vertical-scroll-proportion="0.30286598" vertical-offset="0" max-vertical-offset="1291">
+        <state line="55" column="0" selection-start="1612" selection-end="1612" vertical-scroll-proportion="0.7242448" vertical-offset="0" max-vertical-offset="1291">
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#234#246#0" expanded="true" />
+            <element signature="e#324#336#0" expanded="true" />
           </folding>
         </state>
       </provider>
