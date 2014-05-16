@@ -43,6 +43,7 @@ public class BreedingToads {
             }
             dist = new Double[list.size()][list.size()];
             clo = new Double[list.size()];
+            smallDist = new Double[list.size()];
 
             if(list.size() < 16){
                 System.out.println("Infinite Area");
