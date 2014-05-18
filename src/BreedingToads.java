@@ -46,7 +46,7 @@ public class BreedingToads {
             tempDist = new Double[list.size()];
 
             if(list.size() < 16){
-                System.out.println("Infinite Area");
+                System.out.println("Infinite Area / Limited Only By Size of Swamp");
             } else {
                 sortDistances();
                 System.out.println("Biggest Diameter: " + (closest[15]-0.000000000000001)); // hax

@@ -3,7 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="da80f0ca-e6b3-4130-9f07-97fc7c2765b6" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/BreedingToads.java" afterPath="$PROJECT_DIR$/src/BreedingToads.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/XSmallest.java" afterPath="$PROJECT_DIR$/src/XSmallest.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="BreedingToads.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -70,11 +70,8 @@
       <file leaf-file-name="BreedingToads.java" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/BreedingToads.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="33" column="0" selection-start="995" selection-end="995" vertical-scroll-proportion="0.6546091" vertical-offset="0" max-vertical-offset="1173">
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#327#339#0" expanded="true" />
-              </folding>
+            <state line="51" column="53" selection-start="1674" selection-end="1674" vertical-scroll-proportion="0.61890006" vertical-offset="0" max-vertical-offset="1291">
+              <folding />
             </state>
           </provider>
         </entry>
@@ -82,7 +79,7 @@
       <file leaf-file-name="XSmallest.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/XSmallest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="51" column="1" selection-start="1090" selection-end="1090" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="986">
+            <state line="18" column="19" selection-start="314" selection-end="314" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="986">
               <folding />
             </state>
           </provider>
@@ -91,7 +88,7 @@
       <file leaf-file-name="Coordinate.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/Coordinate.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="20" column="1" selection-start="348" selection-end="348" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="374">
+            <state line="20" column="1" selection-start="348" selection-end="348" vertical-scroll-proportion="0.0" vertical-offset="340" max-vertical-offset="442">
               <folding />
             </state>
           </provider>
@@ -450,12 +447,13 @@
       <created>1400202960170</created>
       <updated>1400202960170</updated>
       <workItem from="1400202962318" duration="7193000" />
-      <workItem from="1400448526356" duration="3305000" />
+      <workItem from="1400448526356" duration="3558000" />
+      <workItem from="1400454237572" duration="1013000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="10498000" />
+    <option name="totallyTimeSpent" value="11764000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="2560" height="1412" extended-state="0" />
@@ -474,18 +472,18 @@
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="IDEtalk" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.15752351" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32953683" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32953683" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
@@ -512,11 +510,29 @@
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/src/BreedingToads.java">
       <provider selected="true" editor-type-id="text-editor">
+        <state line="20" column="0" selection-start="545" selection-end="545" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1173">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/XSmallest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="18" column="19" selection-start="314" selection-end="314" vertical-scroll-proportion="0.0" vertical-offset="306" max-vertical-offset="986">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Coordinate.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="20" column="1" selection-start="348" selection-end="348" vertical-scroll-proportion="0.0" vertical-offset="340" max-vertical-offset="442">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/BreedingToads.java">
+      <provider selected="true" editor-type-id="text-editor">
         <state line="54" column="0" selection-start="1659" selection-end="1659" vertical-scroll-proportion="0.0" vertical-offset="918" max-vertical-offset="1173">
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#327#339#0" expanded="true" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -543,18 +559,15 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/XSmallest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="51" column="1" selection-start="1090" selection-end="1090" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="986">
+        <state line="18" column="19" selection-start="314" selection-end="314" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="986">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/BreedingToads.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="33" column="0" selection-start="995" selection-end="995" vertical-scroll-proportion="0.6546091" vertical-offset="0" max-vertical-offset="1173">
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#327#339#0" expanded="true" />
-          </folding>
+        <state line="51" column="53" selection-start="1674" selection-end="1674" vertical-scroll-proportion="0.61890006" vertical-offset="0" max-vertical-offset="1291">
+          <folding />
         </state>
       </provider>
     </entry>
