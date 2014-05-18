@@ -26,8 +26,8 @@ public class BreedingToads {
             for(int j = 0; j < list.size(); j++){
                 tempDist[j] = distance(list.get(i), list.get(j));
             }
-            xsmall = new XSmallest(tempDist,15); //Find 15th smallest
-            closest[i] = xsmall.findXSmallest(0,tempDist.length-1);
+            Arrays.sort(tempDist);
+            closest[i] = tempDist[15];
         }
         Arrays.sort(closest);
         size = closest[15];
