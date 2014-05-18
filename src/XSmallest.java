@@ -15,25 +15,25 @@ public class XSmallest{
     }
 
 
-    public double partition(int lo, int hi){
+    public double findXSmallest(int lo, int hi){
         first = lo;
         last = hi;
         p = nums[lo];
 
-        if(hi != lo){
+        if(lo != hi){
             while(lo < hi){
-                while (p <= nums[hi] && lo !=hi){
+                while (p <= nums[hi] && lo != hi){
                     hi--;
                 }
-                if(hi != lo){
+                if(lo != hi){ // And therefore p > nums[hi]
                     nums[lo] = nums[hi];
                     lo++;
                 }
 
-                while (p>=nums[lo] && lo!=hi){
+                while (p >= nums[lo] && lo != hi){
                     lo++;
                 }
-                if(hi != lo){
+                if(lo != hi){
                     nums[hi] = nums[lo];
                     hi--;
                 }
@@ -41,9 +41,9 @@ public class XSmallest{
             nums[hi] = p;
 
             if(k <= hi){
-                partition(first, hi);
+                findXSmallest(first, hi);
             } else {
-                partition(hi+1, last);
+                findXSmallest(hi+1, last);
             }
         }
         return nums[first];

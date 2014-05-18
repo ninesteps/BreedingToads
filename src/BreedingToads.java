@@ -10,7 +10,7 @@ import java.util.Scanner;
 public class BreedingToads {
 
     static Double[][] dist;
-    static Double[] smallDist, clo;
+    static Double[] tempDist, closest;
     static ArrayList<Coordinate> list = new ArrayList<Coordinate>();
     static Double size;
 
@@ -24,13 +24,13 @@ public class BreedingToads {
 
         for(int i = 0; i < list.size(); i++){
             for(int j = 0; j < list.size(); j++){
-                smallDist[j] = distance(list.get(i), list.get(j));
+                tempDist[j] = distance(list.get(i), list.get(j));
             }
-            xsmall = new XSmallest(smallDist,15);
-            clo[i] = xsmall.partition(0,smallDist.length-1);
+            xsmall = new XSmallest(tempDist,15); //Find 15th smallest
+            closest[i] = xsmall.findXSmallest(0,tempDist.length-1);
         }
-        Arrays.sort(clo);
-        size = clo[15];
+        Arrays.sort(closest);
+        size = closest[15];
 
     }
 
@@ -42,14 +42,14 @@ public class BreedingToads {
                 list.add(new Coordinate(filescan.nextDouble(),filescan.nextDouble()));
             }
             dist = new Double[list.size()][list.size()];
-            clo = new Double[list.size()];
-            smallDist = new Double[list.size()];
+            closest = new Double[list.size()];
+            tempDist = new Double[list.size()];
 
             if(list.size() < 16){
                 System.out.println("Infinite Area");
             } else {
                 sortDistances();
-                System.out.println("Biggest Diameter: " + (clo[15]-0.000000000000001)); // hax
+                System.out.println("Biggest Diameter: " + (closest[15]-0.000000000000001)); // hax
             }
 
 
