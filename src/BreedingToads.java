@@ -1,7 +1,9 @@
 import java.awt.*;
 import java.awt.geom.Ellipse2D;
+import java.awt.geom.Point2D;
 import java.io.File;
 import java.io.IOException;
+import java.text.DecimalFormat;
 import java.util.ArrayList;
 import java.util.Scanner;
 
@@ -21,9 +23,10 @@ import java.util.Scanner;
  * set the radius to be the radius of C
  */
 public class BreedingToads {
-    static ArrayList<Point> toads = new ArrayList<Point>();
+    static ArrayList<Point2D.Double> toads = new ArrayList<Point2D.Double>();
     static double radius, cx, cy, ma, mb, triarea, r = 30000; //Radius, set to initially be very large
-    static int x1, y1, x2, y2, rectarea, t1x, t2x, t3x, t1y, t2y, t3y, count;
+    static double x1, y1, x2, y2, rectarea, t1x, t2x, t3x, t1y, t2y, t3y;
+    static int count;
     static Ellipse2D C;
 
 
@@ -36,8 +39,8 @@ public class BreedingToads {
 
     public static void main(String args[]) throws IOException {
         Scanner sc = new Scanner(new File("lineoftoads.txt"));
-        while (sc.hasNextInt()) {
-            toads.add(new Point(sc.nextInt(), sc.nextInt()));
+        while (sc.hasNextDouble()) {
+            toads.add(new Point2D.Double(sc.nextDouble(), sc.nextDouble()));
         }
 
         //for every set of 3 toads
@@ -45,20 +48,19 @@ public class BreedingToads {
             for (int t2 = t1 + 1; t2 < toads.size() - 1; t2++) {
                 for (int t3 = t2 + 1; t3 < toads.size(); t3++) {
 
-                    t1x = (int) toads.get(t1).getX();
-                    t2x = (int) toads.get(t2).getX();
-                    t3x = (int) toads.get(t3).getX();
+                    t1x = toads.get(t1).getX();
+                    t2x = toads.get(t2).getX();
+                    t3x = toads.get(t3).getX();
 
-                    t1y = (int) toads.get(t1).getY();
-                    t2y = (int) toads.get(t2).getY();
-                    t3y = (int) toads.get(t3).getY();
+                    t1y = toads.get(t1).getY();
+                    t2y = toads.get(t2).getY();
+                    t3y = toads.get(t3).getY();
 
                     x1 = Math.min(t1x, Math.min(t2x, t3x));
                     y1 = Math.min(t1y, Math.min(t2y, t3y));
                     x2 = Math.max(t1x, Math.max(t2x, t3x));
                     y2 = Math.max(t1y, Math.max(t2y, t3y));
 
-                    Rectangle rect = new Rectangle(x1, y1, x2 - x1, y2 - y1);
 
                     rectarea = (x2 - x1) * (y2 - y1);
                     triarea = Math.abs(((t1x * (t2y - t3y) + t2x * (t3y - t1y) + t3x * (t1y - t2y)) / 2));
@@ -75,7 +77,7 @@ public class BreedingToads {
                         //calculate X coordinate for center of circle
                         cx = ((ma * mb * (t1y - t3y) + mb * (t1x + t2x) - ma * (t2x + t3x)) / (2 * (mb - ma)));
                         cy = ((-1 / ma) * (cx - ((t1x + t2x) / 2)) + ((t1y + t2y) / 2)); // calc for y
-                        radius = Math.hypot(cx - t2x, cy - t1y);
+                        radius = Math.hypot(cx - t2x, cy - t2y); //t1y
 
                         C = circleByCenterRadius(cx, cy, radius);
                     }
@@ -101,7 +103,8 @@ public class BreedingToads {
         }
 
         if (r != 30000.0){
-            System.out.println("Radius < " + r);
+            DecimalFormat df = new DecimalFormat("#.00");
+            System.out.println("Radius < " + df.format(r));
         } else {
             System.out.println("Unlimited Radius");
         }
