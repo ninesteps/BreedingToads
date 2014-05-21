@@ -21,10 +21,15 @@ import java.util.Scanner;
  */
 public class BreedingToads {
     static ArrayList<Point> toads = new ArrayList<Point>();
-    static double triarea, r = 30000; //Radius, set to initially be very large
-    static int x1, y1, x2, y2, rectarea, t1x, t2x, t3x, t1y, t2y, t3y;
+    static double radius, cx, cy, ma, mb, triarea, r = 30000; //Radius, set to initially be very large
+    static int x1, y1, x2, y2, rectarea, t1x, t2x, t3x, t1y, t2y, t3y, count;
     static Ellipse2D C;
 
+
+
+    private static Ellipse2D circleByCenterRadius(double x, double y, double radius){
+        return new Ellipse2D.Double(x-radius,y-radius,radius*2,radius*2);
+    }
 
 
 
@@ -58,18 +63,37 @@ public class BreedingToads {
                     rectarea = (x2-x1) * (y2-y1);
                     triarea = Math.abs(((t1x * (t2y - t3y) + t2x * (t3y - t1y) + t3x * (t1y - t2y)) / 2));
                     
-                    if(triarea == 0){
+                    if(triarea == 0){ // If they are in a straight line
                         // let C be the circle containing rect
-                        double radius = 0.5 * Math.hypot(x2 - x1, y2 - y1);
-                        C = new Ellipse2D.Double((x2-x1)/2 - radius, (y2-y1)/2 - radius,radius*2,radius*2);
+                        radius = 0.5 * Math.hypot(x2 - x1, y2 - y1);
+                        C = circleByCenterRadius(x1 + (x2-x1)/2, y1 + (y2-y1)/2, radius);
                     } else {
                         // let C be the circle passing through toads location
-                        
+                        ma = ((t2y - t1y) / (t2x - t1x)); // SLOPE for t1 to t2
+                        mb = ((t3y - t2y) / (t3x - t2x)); // SLOPE for t2 to t3
+
+                        //calculate X coordinate for center of circle
+                        cx = ((ma*mb*(t1y - t3y) + mb*(t1x+t2x) - ma*(t2x+t3x))/(2*(mb-ma)));
+                        cy = ((-1/ma) * (cx - ((t1x + t2x)/2)) + ((t1y+t2y)/2)); // calc for y
+                        radius = Math.hypot(cx - t2x, cy - t1y);
+
+                        C = circleByCenterRadius(cx,cy,radius);
                     }
 
+                    if (radius < r){ // If radius of C < the radius so far
+                        count = 0;
+                        for(int i = 0; i < toads.size(); i++){
+                            if(count < 16){
+                                if(C.contains(toads.get(i).getX(),toads.get(i).getY())){
+                                    count++;
+                                }
+                            }
+                        }
+                        if (count == 16){
+                            r = radius;
+                        }
 
-
-
+                    }
 
 
                 }

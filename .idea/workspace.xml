@@ -69,7 +69,7 @@
       <file leaf-file-name="BreedingToads.java" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/BreedingToads.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="66" column="24" selection-start="2498" selection-end="2498" vertical-scroll-proportion="0.73663825" vertical-offset="171" max-vertical-offset="1462">
+            <state line="103" column="1" selection-start="3879" selection-end="3879" vertical-scroll-proportion="0.9078234" vertical-offset="579" max-vertical-offset="1870">
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="e#669#676#0" expanded="true" />
@@ -437,12 +437,12 @@
       <workItem from="1400448526356" duration="3558000" />
       <workItem from="1400454237572" duration="1304000" />
       <workItem from="1400548646445" duration="645000" />
-      <workItem from="1400628226820" duration="9072000" />
+      <workItem from="1400628226820" duration="14293000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="21772000" />
+    <option name="totallyTimeSpent" value="26993000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="16" y="-2" width="1280" height="1412" extended-state="0" />
@@ -539,7 +539,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/BreedingToads.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="66" column="24" selection-start="2498" selection-end="2498" vertical-scroll-proportion="0.73663825" vertical-offset="171" max-vertical-offset="1462">
+        <state line="103" column="1" selection-start="3879" selection-end="3879" vertical-scroll-proportion="0.9078234" vertical-offset="579" max-vertical-offset="1870">
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="e#669#676#0" expanded="true" />
