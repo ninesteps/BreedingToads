@@ -38,7 +38,7 @@ public class BreedingToads {
 
 
     public static void main(String args[]) throws IOException {
-        Scanner sc = new Scanner(new File("lineoftoads.txt"));
+        Scanner sc = new Scanner(System.in);
         while (sc.hasNextDouble()) {
             toads.add(new Point2D.Double(sc.nextDouble(), sc.nextDouble()));
         }
